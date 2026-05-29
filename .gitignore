@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 Final_Ecommerce_Analytics_Report.csv
+ecommerce-sales-analytics/data/olist_geolocation_dataset.csv

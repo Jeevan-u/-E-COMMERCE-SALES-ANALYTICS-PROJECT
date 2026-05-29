@@ -1,26 +1,22 @@
-# E-Commerce Sales Analytics Project
+# E-Commerce Sales Analytics
 
-An end-to-end data analytics project on Brazilian e-commerce public dataset by Olist. This project performs comprehensive sales analysis, customer behavior insights, and visualization using Python.
+An end-to-end data analytics project on the Brazilian e-commerce public dataset by Olist. Analyzes ~100k orders (2016–2018) for sales trends, customer behavior, and business insights using Python.
 
-## Project Overview
+## Analyses
 
-This mini project analyzes ~100k orders from 2016–2018 to uncover actionable business insights. The analysis pipeline includes data loading, cleaning, merging multiple datasets, exploratory analysis, and visualisation — all within a single Jupyter Notebook.
-
-## Key Analyses
-
-- **Total Revenue** – Overall revenue calculation from order items
-- **Monthly Sales Trends** – Revenue patterns across months to identify peak periods
+- **Total Revenue** – Overall revenue from order items
+- **Monthly Sales Trends** – Revenue patterns across months
 - **Top Selling Products** – Best performing product categories
-- **Payment Method Analysis** – Distribution of payment types used by customers
-- **Geographic Revenue** – Top states and cities contributing highest revenue
-- **Order Status Analysis** – Breakdown of order delivery performance
-- **Customer Review Analysis** – Review score distributions and satisfaction patterns
-- **Seasonal Patterns** – Sales fluctuations across seasons for inventory planning
-- **Correlation Heatmap** – Relationship between numerical features
+- **Payment Method Analysis** – Distribution of payment types
+- **Geographic Revenue** – Top states and cities by revenue
+- **Order Status Analysis** – Delivery performance breakdown
+- **Customer Review Analysis** – Review score distributions
+- **Seasonal Patterns** – Sales fluctuations for inventory planning
+- **Correlation Heatmap** – Relationships between numerical features
 
 ## Dataset
 
-The dataset is the Brazilian E-Commerce Public Dataset by Olist, consisting of 9 CSV files:
+Brazilian E-Commerce Public Dataset by Olist (8 CSV files):
 
 | Dataset | Description |
 |---|---|
@@ -31,24 +27,11 @@ The dataset is the Brazilian E-Commerce Public Dataset by Olist, consisting of 9
 | `olist_order_reviews_dataset` | Customer review scores |
 | `olist_products_dataset` | Product category information |
 | `olist_sellers_dataset` | Seller information and location |
-| `olist_geolocation_dataset` | ZIP code geolocation data |
 | `product_category_name_translation` | Portuguese-to-English category translations |
 
 ## Tech Stack
 
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
-- **Jupyter Notebook**
-- **Google Colab**
-
-## Business Insights
-
-1. Top product categories generate the highest revenue
-2. Monthly trends identify peak shopping periods
-3. Most customers prefer digital payment methods
-4. Certain states contribute the highest revenue
-5. Customer reviews indicate overall satisfaction levels
-6. Seasonal patterns help in inventory planning
-7. Revenue analysis supports better business decision-making
+Python (Pandas, NumPy, Matplotlib, Seaborn), Jupyter Notebook
 
 ## How to Run
 
@@ -56,6 +39,5 @@ Open `Mini_project.ipynb` in Jupyter Notebook or Google Colab and run all cells.
 
 ---
 
-**Directed by** – Satyam Sir
-
+**Directed by** – Satyam Sir  
 **Prepared by** – Jeevan KL & Towhid Alam
